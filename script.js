@@ -1,4 +1,6 @@
-function myshop()
+function sub(a,b,c)
 {
-    document.getElementById('offers').innerHTML='Today is Special day of my customer';
+    var c=a-b;
+    console.log(c);
 }
+sub(10,5);
