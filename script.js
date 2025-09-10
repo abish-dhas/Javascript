@@ -1,7 +1,9 @@
-function add(a){
-    var i=10
-    for(var i=0; i<50; i++){
-        console.log(i);
-    }
-}
-add();
+// let cart = [500, 70, 400];
+// let total = 0;
+// let Tax = cart.map((cost) => {
+//   total += cost;
+//   return cost * 1.2;
+// });
+// console.log(Tax); 
+// console.log(total);
+// m --- IGNORE ---
