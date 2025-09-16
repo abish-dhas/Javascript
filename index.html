@@ -3,11 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration Form</title>
 </head>
 <body>
+    <h1 style="text-align: center;">Registration Form</h1>
+    <form style="border: 1px solid black; width: 400px; margin: auto; padding: 20px;">
+        <h3> Name: <input type="text" name="name" id="name" placeholder="Enter your Name"></h3>
+        <h3> Email: <input type="email" name="email" id="email" placeholder="Enter your Email"></h3>
+        <h3> Password: <input type="password" name="password" id="password" placeholder="Enter your Password"></h3>
+        <h3> Confirm Password: <input type="password" name="cpassword" id="cpassword" placeholder="Confirm your Password"></h3>
+        <h3>select file: <input type="file" name="file" id="file" placeholder="Select a file"></h3>
+        <h3> Age: <input type="number" name="age" id="age" placeholder="Enter your Age"></h3>
+        <h3> Gender:
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other" value="other">
+            <label for="other">Other</label>
+        </h3>
+        <h3><input type="submit" value="Submit"></h3>
+        <button type="reset">Reset</button>
 
-<h1>Funtions</h1>
-<h1>Functions</h1>
+        <p id="message">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    </form>
     <script src="script.js"></script>
 </body>
